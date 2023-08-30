@@ -1,0 +1,15 @@
+app:
+  name: lsburke12-poi-map-app
+  namespace: lsburke12
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/lsburke12-frontend
+  org: rhdh-deploy
+  name: lsburke12-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: lsburke12/poi-map-app
+  tag: latest
